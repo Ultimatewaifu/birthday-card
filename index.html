@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Happy Birthday Cutie Pie 💕</title>
+
+
+
+    <style>
+
+        body {
+
+            background-color: #ffe6f2;
+
+            font-family: Arial, sans-serif;
+
+            text-align: center;
+
+            margin: 0;
+
+            padding-top: 60px;
+
+            overflow: hidden;
+
+        }
+
+
+
+        .card {
+
+            background-color: white;
+
+            width: 350px;
+
+            margin: auto;
+
+            padding: 35px;
+
+            border-radius: 25px;
+
+            box-shadow: 0 5px 20px #d9a6bc;
+
+            position: relative;
+
+        }
+
+
+
+        .balloon {
+
+            font-size: 45px;
+
+            position: absolute;
+
+            animation: float 3s infinite ease-in-out;
+
+        }
+
+
+
+        .balloon1 {
+
+            left: -45px;
+
+            top: 20px;
+
+        }
+
+
+
+        .balloon2 {
+
+            right: -45px;
+
+            top: 70px;
+
+            animation-delay: 1s;
+
+        }
+         .balloon3 {
+
+            left: -25px;
+
+            bottom: 30px;
+
+            animation-delay: 2s;
+
+        }
+
+
+
+        @keyframes float {
+
+            0% {
+
+                transform: translateY(0);
+
+            }
+
+
+
+            50% {
+
+                transform: translateY(-15px);
+
+            }
+
+
+
+            100% {
+
+                transform: translateY(0);
+
+            }
+
+        }
+
+
+
+        .cake {
+
+            font-size: 75px;
+
+        }
+
+
+
+        h1 {
+
+            color: #ff4d94;
+
+            font-size: 30px;
+
+        }
+
+
+
+        p {
+
+            color: #555;
+
+            font-size: 17px;
+
+            line-height: 1.6;
+
+        }
+
+
+
+        button {
+
+            background-color: #ff4d94;
+
+            color: white;
+
+            border: none;
+
+            padding: 14px 22px;
+
+            border-radius: 12px;
+
+            font-size: 16px;
+
+            cursor: pointer;
+
+            margin-top: 10px;
+
+        }
+
+
+
+        button:hover {
+
+            background-color: #ff1a75;
+
+        }
+
+
+
+        #message {
+
+            display: none;
+
+            color: #ff4d94;
+
+            margin-top: 20px;
+
+        }
+
+
+
+        .heart {
+
+            position: absolute;
+
+            font-size: 25px;
+
+            animation: hearts 4s linear infinite;
+
+        }
+
+
+
+        @keyframes hearts {
+
+            0% {
+
+                bottom: -50px;
+
+                opacity: 1;
+
+            }
+
+
+
+            100% {
+
+                bottom: 100%;
+
+                opacity: 0;
+
+            }
+
+        }
+
+
+
+        .heart1 {
+
+            left: 10%;
+
+            animation-delay: 1s;
+
+        }
+
+
+
+        .heart2 {
+
+            left: 50%;
+
+            animation-delay: 2s;
+
+        }
+
+
+
+        .heart3 {
+
+            left: 80%;
+
+            animation-delay: 3s;
+
+        }
+
+    </style>
+
+</head>
+
+
+
+<body>
+
+
+
+    <div class="heart heart1">💕</div>
+
+    <div class="heart heart2">💗</div>
+
+    <div class="heart heart3">💖</div>
+
+
+
+    <div class="card">
+
+
+
+        <div class="balloon balloon1">🎈</div>
+
+        <div class="balloon balloon2">🎈</div>
+
+        <div class="balloon balloon3">🎈</div>
+
+
+
+        <div class="cake">🎂</div>
+
+
+
+        <h1>
+
+            Happy Birthday<br>
+
+            to My Cutie Pie 💕
+
+        </h1>
+
+
+
+        <p>
+
+            I hope your special day is filled with
+
+            happiness, laughter and lots of love. 🥹
+
+        </p>
+
+
+
+        <button onclick="showMessage()">
+
+            🎁 Open Your Surprise
+
+        </button>
+
+
+
+        <div id="message">
+
+            <p>
+
+                💌 <b>To My Cutie Pie</b> 💌
+
+                <br><br>
+
+
+
+                Happy Birthday, my love! 🥹❤️
+
+                <br><br>
+
+
+
+                I hope your day is filled with happiness,
+
+                laughter and all the things that make you smile.
+
+                You are so special to me, and I'm grateful
+
+                to have you in my life. 💕
+
+                <br><br>
+
+
+
+                You deserve all the love and joy in the world.
+
+                <br><br>
+
+
+
+                <b>Happy Birthday, Cutie Pie! 🎂❤️</b>
+
+            </p>
+
+        </div>
+
+
+
+    </div>
+
+
+
+    <script>
+
+
+
+        function showMessage() {
+
+            document.getElementById("message").style.display = "block";
+
+        }
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>
